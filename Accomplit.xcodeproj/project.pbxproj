@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A27836522085C34B008E6C1B /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C8128F2085A44200E3A3F5 /* Realm.framework */; };
+		A27836532085C34C008E6C1B /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A2C8128F2085A44200E3A3F5 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A27836542085C34C008E6C1B /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C8128E2085A44000E3A3F5 /* RealmSwift.framework */; };
+		A27836552085C34C008E6C1B /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A2C8128E2085A44000E3A3F5 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A27836582085C35B008E6C1B /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C8128F2085A44200E3A3F5 /* Realm.framework */; };
+		A27836592085C35B008E6C1B /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A2C8128F2085A44200E3A3F5 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A278365A2085C35B008E6C1B /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C8128E2085A44000E3A3F5 /* RealmSwift.framework */; };
+		A278365B2085C35B008E6C1B /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A2C8128E2085A44000E3A3F5 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A278365F2085D6C7008E6C1B /* ClockKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A278365E2085D6C7008E6C1B /* ClockKit.framework */; };
 		A2C812552085A22500E3A3F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C812542085A22500E3A3F5 /* AppDelegate.swift */; };
 		A2C812572085A22500E3A3F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C812562085A22500E3A3F5 /* ViewController.swift */; };
 		A2C8125A2085A22500E3A3F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C812582085A22500E3A3F5 /* Main.storyboard */; };
@@ -20,6 +29,10 @@
 		A2C8127A2085A22800E3A3F5 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C812792085A22800E3A3F5 /* ExtensionDelegate.swift */; };
 		A2C8127C2085A22800E3A3F5 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C8127B2085A22800E3A3F5 /* NotificationController.swift */; };
 		A2C8127E2085A22900E3A3F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2C8127D2085A22900E3A3F5 /* Assets.xcassets */; };
+		A2C812902085A44200E3A3F5 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C8128E2085A44000E3A3F5 /* RealmSwift.framework */; };
+		A2C812912085A44200E3A3F5 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A2C8128E2085A44000E3A3F5 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A2C812922085A44200E3A3F5 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C8128F2085A44200E3A3F5 /* Realm.framework */; };
+		A2C812932085A44200E3A3F5 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A2C8128F2085A44200E3A3F5 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +53,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		A27836572085C34C008E6C1B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A27836552085C34C008E6C1B /* RealmSwift.framework in Embed Frameworks */,
+				A27836532085C34C008E6C1B /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A278365C2085C35B008E6C1B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A278365B2085C35B008E6C1B /* RealmSwift.framework in Embed Frameworks */,
+				A27836592085C35B008E6C1B /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A2C812862085A22900E3A3F5 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,9 +99,22 @@
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A2C812942085A44200E3A3F5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A2C812932085A44200E3A3F5 /* Realm.framework in Embed Frameworks */,
+				A2C812912085A44200E3A3F5 /* RealmSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A278365E2085D6C7008E6C1B /* ClockKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ClockKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.3.sdk/System/Library/Frameworks/ClockKit.framework; sourceTree = DEVELOPER_DIR; };
 		A2C812512085A22500E3A3F5 /* Accomplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Accomplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2C812542085A22500E3A3F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2C812562085A22500E3A3F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,13 +133,26 @@
 		A2C8127D2085A22900E3A3F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2C8127F2085A22900E3A3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2C812802085A22900E3A3F5 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		A2C8128E2085A44000E3A3F5 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		A2C8128F2085A44200E3A3F5 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A27836562085C34C008E6C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27836542085C34C008E6C1B /* RealmSwift.framework in Frameworks */,
+				A27836522085C34B008E6C1B /* Realm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A2C8124E2085A22500E3A3F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2C812922085A44200E3A3F5 /* Realm.framework in Frameworks */,
+				A2C812902085A44200E3A3F5 /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,19 +160,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A278365F2085D6C7008E6C1B /* ClockKit.framework in Frameworks */,
+				A278365A2085C35B008E6C1B /* RealmSwift.framework in Frameworks */,
+				A27836582085C35B008E6C1B /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A278365D2085D6C6008E6C1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A278365E2085D6C7008E6C1B /* ClockKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A2C812482085A22500E3A3F5 = {
 			isa = PBXGroup;
 			children = (
+				A2C8128F2085A44200E3A3F5 /* Realm.framework */,
+				A2C8128E2085A44000E3A3F5 /* RealmSwift.framework */,
 				A2C812532085A22500E3A3F5 /* Accomplit */,
 				A2C812672085A22700E3A3F5 /* Accomplit WatchKit App */,
 				A2C812762085A22800E3A3F5 /* Accomplit WatchKit Extension */,
 				A2C812522085A22500E3A3F5 /* Products */,
+				A278365D2085D6C6008E6C1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -170,6 +247,7 @@
 				A2C8124E2085A22500E3A3F5 /* Frameworks */,
 				A2C8124F2085A22500E3A3F5 /* Resources */,
 				A2C8128A2085A22900E3A3F5 /* Embed Watch Content */,
+				A2C812942085A44200E3A3F5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -187,6 +265,8 @@
 			buildPhases = (
 				A2C812612085A22700E3A3F5 /* Resources */,
 				A2C812862085A22900E3A3F5 /* Embed App Extensions */,
+				A27836562085C34C008E6C1B /* Frameworks */,
+				A27836572085C34C008E6C1B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -205,6 +285,7 @@
 				A2C8126E2085A22800E3A3F5 /* Sources */,
 				A2C8126F2085A22800E3A3F5 /* Frameworks */,
 				A2C812702085A22800E3A3F5 /* Resources */,
+				A278365C2085C35B008E6C1B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -468,7 +549,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W6PAV6JMNM;
+				DEVELOPMENT_TEAM = PYRSGL7QFF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Accomplit WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -490,7 +575,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W6PAV6JMNM;
+				DEVELOPMENT_TEAM = PYRSGL7QFF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Accomplit WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -513,16 +602,24 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W6PAV6JMNM;
+				DEVELOPMENT_TEAM = PYRSGL7QFF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				IBSC_MODULE = Accomplit_WatchKit_Extension;
 				INFOPLIST_FILE = "Accomplit WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.andk.Accomplit.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
 			name = Debug;
 		};
@@ -532,16 +629,24 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W6PAV6JMNM;
+				DEVELOPMENT_TEAM = PYRSGL7QFF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				IBSC_MODULE = Accomplit_WatchKit_Extension;
 				INFOPLIST_FILE = "Accomplit WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.andk.Accomplit.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
 			name = Release;
 		};
@@ -550,8 +655,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W6PAV6JMNM;
+				DEVELOPMENT_TEAM = PYRSGL7QFF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Accomplit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -568,8 +678,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W6PAV6JMNM;
+				DEVELOPMENT_TEAM = PYRSGL7QFF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Accomplit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
